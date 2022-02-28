@@ -1,0 +1,85 @@
+
+
+
+#slider{
+    height: 60vh;
+    
+}
+
+.slider__home{
+    &-item{
+        height: 500px;
+        background-image: url("../image/Rectangle\ 2.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: none ;
+  
+        .container{
+            // display: flex;
+            // flex-direction: column;
+            padding: 12rem 3rem;
+            
+            .slider__home-item-text{
+                 text-align: left;
+                 line-height: 1.7;
+                h2{
+                    font-size: 2.8rem;
+                    
+                }
+            }
+            
+        }
+   
+    }
+  
+    &-item-num{
+        margin-top: 8rem;
+        display: inline-block;
+        h2{
+            display: inline-block;
+            font-weight: 500;
+            font-size: 3rem;
+            color: $color-secondary;
+        }
+       
+        h4{
+            display: inline;
+            // margin-top: 5rem;
+            font-size: 1.8rem;
+            margin-left: .2rem;
+            color: $color-secondary;
+        }
+
+       
+    }
+}
+
+
+
+
+
+.owl-nav{
+    position: absolute;
+    bottom: 15%;
+    right: 10%;
+    
+
+     .owl-next i,.owl-prev i{
+         color: $color-secondary;
+         padding: 10px;
+         font-size: 15px;
+         background-color: rgba(255, 255, 255, 0.7);
+         border-radius: 6px;
+     }
+     
+}
+
+.slider__home .owl-dots{
+    position: absolute;
+    bottom: 7%;
+    left: 35%;
+
+}
+
+
+

@@ -24,6 +24,77 @@ ul {
   ul li a {
     text-decoration: none; }
 
+#slider {
+  height: 60vh; }
+
+.slider__home-item {
+  height: 500px;
+  background-image: url("../image/Rectangle 2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: none; }
+  .slider__home-item .container {
+    padding: 12rem 3rem; }
+    .slider__home-item .container .slider__home-item-text {
+      text-align: left;
+      line-height: 1.7; }
+      .slider__home-item .container .slider__home-item-text h2 {
+        font-size: 2.8rem; }
+
+.slider__home-item-num {
+  margin-top: 8rem;
+  display: inline-block; }
+  .slider__home-item-num h2 {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 3rem;
+    color: #435072; }
+  .slider__home-item-num h4 {
+    display: inline;
+    font-size: 1.8rem;
+    margin-left: .2rem;
+    color: #435072; }
+
+.owl-nav {
+  position: absolute;
+  bottom: 15%;
+  right: 10%; }
+  .owl-nav .owl-next i, .owl-nav .owl-prev i {
+    color: #435072;
+    padding: 10px;
+    font-size: 15px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 6px; }
+
+.slider__home .owl-dots {
+  position: absolute;
+  bottom: 7%;
+  left: 35%; }
+
+.slider__home-item-button {
+  margin-top: 5rem; }
+
+.major-button {
+  padding: .8rem 1.5rem;
+  border: 1px solid #435072;
+  border-radius: 8px;
+  transition: all .8s; }
+  .major-button a {
+    text-decoration: none;
+    color: #435072;
+    font-size: 1.8rem; }
+    .major-button a:hover {
+      color: #435072; }
+    .major-button a i {
+      font-size: 1.5rem;
+      color: #435072; }
+  .major-button:hover {
+    background-color: #435072; }
+    .major-button:hover a {
+      color: #fff; }
+      .major-button:hover a i {
+        color: #fff; }
+
 .heading {
   padding: 1.7rem 0;
   background-color: #435072;
