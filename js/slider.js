@@ -59,3 +59,21 @@ $(function () {
         smartSpeed:600,
     })
 })
+
+
+
+
+
+$(function (){
+    $(".product__slider").owlCarousel({
+        items:3,
+        loop:true,
+        margin:60,
+        nav:true,
+       
+        // autoplay:true,
+        // autoplayTimeout:1000,
+        // autoplayHoverPause:true
+    
+    })
+})

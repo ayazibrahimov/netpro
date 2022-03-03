@@ -1,0 +1,61 @@
+
+
+.product{
+
+  &__heading{
+     margin-top: 2rem;
+    
+  }
+
+
+  
+  &_slider{
+ 
+    margin-top: 5rem;
+   
+    &-item{
+      width: 28rem !important;
+      height: 27rem;
+      opacity: .4;
+      img{
+        height: 100%;
+        width: 100%;
+      }
+    }
+  }
+
+
+
+
+}
+
+
+
+.slick-next{
+  right: 13rem !important;
+}
+
+
+.slick-prev{
+  left: 13rem !important;
+}
+
+
+
+.slick-current .product_slider-item{
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

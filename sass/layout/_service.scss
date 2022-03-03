@@ -1,0 +1,56 @@
+.service{
+ 
+
+    &__caption{
+        
+        position: relative;
+        margin: 3rem 0;
+       
+        h2{
+        color: rgb(96, 111, 132);
+        text-transform: uppercase;
+        margin-left: 2rem;
+        font-size: 2.5rem;
+        padding-top: .6rem;
+          &::before{
+            content: "";
+            position: absolute;
+            top: -5px;
+            left: -25px;
+            width: 0px;
+            height: 0px;
+            border-top: 12px solid rgb(96, 111, 132);
+            border-right: 12px solid transparent;
+            margin-left: 2rem;
+            margin-top: 1rem;
+          }
+          &::after{
+            content: "";
+            position: absolute;
+            top: 10px;
+            left: -25px;
+            width: 0px;
+            height: 0px;
+            border-bottom: 18px solid rgb(96, 111, 132);
+            border-right: 18px solid transparent;
+            margin-left: 2rem;
+            margin-top: 1rem;
+          }
+         }
+        }
+
+
+    &__title{
+         
+        margin-top: 8rem;
+        
+
+        h2{
+            text-transform: uppercase;
+            margin-bottom: 5rem;
+            
+            color: $color-primary;
+            font-size: 4rem;
+        }
+    }    
+}

@@ -9,23 +9,32 @@ html {
   font-size: 65.5%; }
 
 body {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-weight: 400;
+  line-height: 1.7; }
   body p {
     margin: inherit; }
   body ul {
     margin: inherit; }
 
-body {
-  font-weight: 400;
-  line-height: 1.7; }
+.u-font-size {
+  font-size: 4rem;
+  line-height: 4rem;
+  letter-spacing: .2rem; }
+
+.u-margin-top-medium {
+  margin-top: 3rem; }
+
+.u-margin-top-small {
+  margin-top: 1.5rem; }
+
+.u-text-align {
+  text-align: center; }
 
 ul {
   list-style-type: none; }
   ul li a {
     text-decoration: none; }
-
-#slider {
-  height: 60vh; }
 
 .slider__home-item {
   height: 500px;
@@ -78,7 +87,7 @@ ul {
   padding: .8rem 1.5rem;
   border: 1px solid #435072;
   border-radius: 8px;
-  transition: all .8s; }
+  transition: all .6s; }
   .major-button a {
     text-decoration: none;
     color: #435072;
@@ -94,6 +103,14 @@ ul {
       color: #fff; }
       .major-button:hover a i {
         color: #fff; }
+
+.major-button-2 {
+  padding: .8rem 4rem; }
+  .major-button-2 i {
+    padding: 0 1rem;
+    transition: all .6s; }
+  .major-button-2:hover i {
+    transform: translateX(10px); }
 
 .heading {
   padding: 1.7rem 0;
@@ -208,3 +225,112 @@ ul {
         display: flex;
         align-items: center;
         padding: 1rem 1.5rem; }
+
+.about__logo img {
+  width: 11%; }
+
+.about__text p {
+  font-size: 2.1rem;
+  line-height: 36px; }
+
+.partner__text h2 {
+  color: #435072;
+  line-height: 4rem;
+  letter-spacing: 2px; }
+
+.partner__logos-row {
+  height: 100%; }
+
+.partner__logos-pic {
+  height: 100%;
+  display: flex;
+  align-items: center; }
+
+.product__heading {
+  margin-top: 2rem; }
+
+.product_slider {
+  margin-top: 5rem; }
+  .product_slider-item {
+    width: 28rem !important;
+    height: 27rem;
+    opacity: .4; }
+    .product_slider-item img {
+      height: 100%;
+      width: 100%; }
+
+.slick-next {
+  right: 13rem !important; }
+
+.slick-prev {
+  left: 13rem !important; }
+
+.slick-current .product_slider-item {
+  opacity: 1; }
+
+.service__caption {
+  position: relative;
+  margin: 3rem 0; }
+  .service__caption h2 {
+    color: #606f84;
+    text-transform: uppercase;
+    margin-left: 2rem;
+    font-size: 2.5rem;
+    padding-top: .6rem; }
+    .service__caption h2::before {
+      content: "";
+      position: absolute;
+      top: -5px;
+      left: -25px;
+      width: 0px;
+      height: 0px;
+      border-top: 12px solid #606f84;
+      border-right: 12px solid transparent;
+      margin-left: 2rem;
+      margin-top: 1rem; }
+    .service__caption h2::after {
+      content: "";
+      position: absolute;
+      top: 10px;
+      left: -25px;
+      width: 0px;
+      height: 0px;
+      border-bottom: 18px solid #606f84;
+      border-right: 18px solid transparent;
+      margin-left: 2rem;
+      margin-top: 1rem; }
+
+.service__title {
+  margin-top: 8rem; }
+  .service__title h2 {
+    text-transform: uppercase;
+    margin-bottom: 5rem;
+    color: #435072;
+    font-size: 4rem; }
+
+#about {
+  padding: 50px 0;
+  background-image: url("../../image/haqqimizda-bg 1 (2).png");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  background-position: center;
+  color: #fff; }
+
+#partners {
+  padding: 70px 0;
+  background-color: #fff; }
+
+#product {
+  padding: 50px 0;
+  background-image: url("../../image/mehsullar-bg 1.png");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  background-position: center;
+  color: #fff; }
+
+#service {
+  background-image: url("../../image/service-bg.png");
+  background-size: cover;
+  padding: 50px 0; }

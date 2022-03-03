@@ -1,0 +1,33 @@
+.partner__text{
+    h2{
+        color: $color-secondary;
+        line-height: 4rem;
+        letter-spacing: 2px;
+    }
+}
+
+.partner__logos{
+
+  
+    &-row{
+        // display: flex;
+        // align-items: center;
+        height: 100%;
+    }
+    &-pic{
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
