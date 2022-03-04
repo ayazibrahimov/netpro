@@ -268,45 +268,115 @@ ul {
 .slick-current .product_slider-item {
   opacity: 1; }
 
-.service__caption {
-  position: relative;
-  margin: 3rem 0; }
-  .service__caption h2 {
-    color: #606f84;
-    text-transform: uppercase;
-    margin-left: 2rem;
-    font-size: 2.5rem;
-    padding-top: .6rem; }
-    .service__caption h2::before {
-      content: "";
-      position: absolute;
-      top: -5px;
-      left: -25px;
-      width: 0px;
-      height: 0px;
-      border-top: 12px solid #606f84;
-      border-right: 12px solid transparent;
+.service {
+  text-align: left; }
+  .service__caption {
+    position: relative;
+    margin: 4rem 0; }
+    .service__caption h2 {
+      color: #606f84;
+      text-transform: uppercase;
       margin-left: 2rem;
-      margin-top: 1rem; }
-    .service__caption h2::after {
-      content: "";
-      position: absolute;
-      top: 10px;
-      left: -25px;
-      width: 0px;
-      height: 0px;
-      border-bottom: 18px solid #606f84;
-      border-right: 18px solid transparent;
-      margin-left: 2rem;
-      margin-top: 1rem; }
+      font-size: 2.5rem;
+      padding-top: .6rem; }
+      .service__caption h2::before {
+        content: "";
+        position: absolute;
+        top: -5px;
+        left: -25px;
+        width: 0px;
+        height: 0px;
+        border-top: 12px solid #606f84;
+        border-right: 12px solid transparent;
+        margin-left: 2rem;
+        margin-top: 1rem; }
+      .service__caption h2::after {
+        content: "";
+        position: absolute;
+        top: 10px;
+        left: -25px;
+        width: 0px;
+        height: 0px;
+        border-bottom: 18px solid #606f84;
+        border-right: 18px solid transparent;
+        margin-left: 2rem;
+        margin-top: 1rem; }
+  .service__title {
+    margin-bottom: 4rem; }
+    .service__title h2 {
+      margin-bottom: 2rem;
+      color: #435072;
+      font-size: 3.5rem; }
+  .service__cards .row {
+    --bs-gutter-x: 2.5rem; }
+  .service__cards_item {
+    position: relative;
+    margin: 1.5rem 0;
+    padding: 2rem 3rem;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(27, 50, 77, 0.1);
+    border-radius: 15px;
+    overflow: hidden;
+    transition: all .5s; }
+    .service__cards_item:hover {
+      transform: translateY(-10px); }
+    .service__cards_item:hover .service__cards_item-text::after {
+      width: 100%; }
+    .service__cards_item-icon {
+      width: 5rem;
+      height: 5rem;
+      background-color: rgba(67, 80, 114, 0.08);
+      color: #435072;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      margin-bottom: 1.5rem; }
+      .service__cards_item-icon i {
+        font-size: 2rem; }
+    .service__cards_item-title {
+      margin-bottom: 1.5rem;
+      color: #435072; }
+      .service__cards_item-title h3 {
+        font-size: 2rem;
+        line-height: 3rem; }
+    .service__cards_item-text {
+      margin-bottom: 1.5rem; }
+      .service__cards_item-text p {
+        font-size: 1.3rem;
+        line-height: 2rem;
+        color: #435072; }
+      .service__cards_item-text::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 12px;
+        background-color: #435072;
+        bottom: 0;
+        left: 0;
+        transition: width 1s; }
 
-.service__title {
-  margin-top: 8rem; }
-  .service__title h2 {
-    text-transform: uppercase;
-    margin-bottom: 5rem;
-    color: #435072;
+.brend__title {
+  padding: 3rem 0; }
+  .brend__title h2 {
     font-size: 4rem; }
+
+.brend__slider {
+  margin-top: 2rem; }
+  .brend__slider-item {
+    width: 28rem;
+    background: #fff;
+    padding: 20px;
+    height: 8rem;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.3);
+    border-radius: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .brend__slider-item img {
+      width: 53.5% !important; }
+  .brend__slider .owl-dots {
+    margin-top: 4rem !important; }
 
 #about {
   padding: 50px 0;
@@ -334,3 +404,10 @@ ul {
   background-image: url("../../image/service-bg.png");
   background-size: cover;
   padding: 50px 0; }
+
+#brend {
+  padding: 50px 0;
+  background-image: url("../../image/slider-bg.png");
+  background-size: cover;
+  background-position: center;
+  color: #fff; }

@@ -1,10 +1,11 @@
 .service{
- 
+    
+  text-align: left;
 
     &__caption{
         
         position: relative;
-        margin: 3rem 0;
+        margin: 4rem 0;
        
         h2{
         color: rgb(96, 111, 132);
@@ -42,15 +43,109 @@
 
     &__title{
          
-        margin-top: 8rem;
+        margin-bottom: 4rem;
         
 
         h2{
-            text-transform: uppercase;
-            margin-bottom: 5rem;
+            
+            margin-bottom: 2rem;
             
             color: $color-primary;
-            font-size: 4rem;
+            font-size: 3.5rem;
         }
     }    
+
+
+
+    &__cards{
+
+      .row{
+        --bs-gutter-x: 2.5rem;
+      }
+
+      &_item{
+        position: relative;
+        margin: 1.5rem 0;
+        padding: 2rem 3rem;
+        background-color: $color-white;
+        box-shadow: 0px 4px 8px rgba(27, 50, 77, 0.1);
+        border-radius: 15px;
+        overflow: hidden;
+        transition: all .5s;
+        
+
+
+        &:hover{
+          transform: translateY(-10px);
+        }
+
+        &:hover .service__cards_item-text::after{
+         width: 100%;
+        } 
+
+
+        &-icon{
+          width: 5rem;
+          height: 5rem;
+          background-color: rgba(67, 80, 114, 0.08);
+          color: #435072;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 50%;
+          margin-bottom: 1.5rem;
+          
+     
+          i{
+            font-size: 2rem;
+          }
+        }
+
+
+
+        &-title{
+           margin-bottom: 1.5rem;
+           color: $color-secondary;
+
+           h3{
+             font-size: 2rem;
+             line-height: 3rem;
+           }
+        }
+
+
+       
+        &-text{
+          margin-bottom: 1.5rem;
+          
+  
+          p{
+            font-size: 1.3rem;
+            line-height: 2rem;
+            color: $color-secondary;
+          }
+
+          &::after{
+            content: "";
+            position: absolute;
+            width: 0;
+            height: 12px;
+            background-color: #435072;
+            bottom: 0;
+            left: 0;
+            transition: width 1s;
+          }
+        } 
+
+
+      }
+
+    
+     
+
+    }
+
+
+
+
 }

@@ -77,3 +77,38 @@ $(function (){
     
     })
 })
+
+
+
+
+
+$(function (){
+    $(".brend__slider").owlCarousel({
+        items:3,
+        loop:true,
+        margin:30,
+        autoplay:true,
+        autoplayTimeout:3000,
+        autoplayHoverPause:true,
+       
+       
+    })
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//

@@ -1,0 +1,61 @@
+.brend{
+    &__title{
+        padding: 3rem 0;
+      
+        h2{
+            font-size: 4rem;
+        }
+    }
+    &__slider{
+        margin-top: 2rem;
+
+        &-item{
+         
+            width: 28rem;
+            // margin-right: 30px;
+            background: #fff;
+            padding: 20px;
+            height: 8rem;
+            box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.3);
+            border-radius: .5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img{
+                width: 53.5% !important;
+            }
+        } 
+
+        .owl-dots{
+            margin-top: 4rem !important;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
