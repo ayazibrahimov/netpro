@@ -95,7 +95,26 @@ $(function (){
     })
 })
 
+$(function(){
 
+    const nexticon='<i class="fa-solid fa-arrow-right"></i>'
+    const previcon='<i class="fa-solid fa-arrow-left"></i>'
+
+    $(".gallery__slider").owlCarousel({
+        items:5,
+        loop:true,
+        nav:true,
+        navText:[previcon,nexticon],
+        margin:30,
+        dots:false,
+        autoplay:true,
+        autoplayTimeout:2500,
+        autoplayHoverPause:true,
+        video:true,
+        // mouseDrag:false,
+        // touchDrag:false,
+    })
+})
 
 
 

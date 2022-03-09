@@ -20,7 +20,8 @@ body {
 .u-font-size {
   font-size: 4rem;
   line-height: 4rem;
-  letter-spacing: .2rem; }
+  letter-spacing: .2rem;
+  color: #435072; }
 
 .u-margin-top-medium {
   margin-top: 3rem; }
@@ -374,9 +375,89 @@ ul {
     justify-content: center;
     align-items: center; }
     .brend__slider-item img {
-      width: 53.5% !important; }
+      width: 50.5% !important;
+      height: 67%; }
   .brend__slider .owl-dots {
     margin-top: 4rem !important; }
+
+.gallery__flex {
+  display: flex;
+  justify-content: space-between; }
+
+.gallery__title {
+  margin: 2rem 0; }
+
+.gallery__slider {
+  margin-top: 5rem; }
+  .gallery__slider-item {
+    height: 22rem; }
+    .gallery__slider-item img {
+      height: 100%;
+      object-fit: cover;
+      border-radius: 10px; }
+
+.gallery .owl-nav {
+  top: -45% !important;
+  bottom: inherit !important; }
+  .gallery .owl-nav .owl-prev {
+    border: 1px solid #435072 !important;
+    border-radius: 6px !important; }
+    .gallery .owl-nav .owl-prev i {
+      font-size: 2rem;
+      color: #435072; }
+  .gallery .owl-nav .owl-next {
+    border: 1px solid #435072 !important;
+    border-radius: 6px !important; }
+    .gallery .owl-nav .owl-next i {
+      font-size: 2rem;
+      color: #435072; }
+
+.contact__header {
+  color: #435072;
+  text-align: center;
+  margin: 2rem 0; }
+  .contact__header h2 {
+    font-size: 4rem; }
+
+.contact__text {
+  text-align: center;
+  color: #435072;
+  margin: 2rem 0; }
+  .contact__text p {
+    font-size: 2rem;
+    line-height: 6rem; }
+
+.contact__form {
+  padding: 0 20rem; }
+  .contact__form-input:not(:last-child) {
+    margin: 1.5rem 0; }
+  .contact__form-input input {
+    width: 40rem;
+    height: 5rem;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 0 20px;
+    font-size: 1.3rem; }
+    .contact__form-input input:focus {
+      outline: none; }
+
+.contact__text textarea {
+  border: 1px solid white;
+  padding: 20px;
+  font-size: 1.3rem;
+  width: 100%;
+  height: 17rem; }
+  .contact__text textarea:focus {
+    outline: none; }
+
+.contact .about__button {
+  text-align: center; }
+  .contact .about__button button {
+    background-color: #435072; }
+    .contact .about__button button a {
+      color: white; }
+      .contact .about__button button a i {
+        color: white; }
 
 #about {
   padding: 50px 0;
@@ -411,3 +492,12 @@ ul {
   background-size: cover;
   background-position: center;
   color: #fff; }
+
+#gallery {
+  padding: 50px 0; }
+
+#contact {
+  padding: 50px 0;
+  background-image: url("../../image/contact-bg.png");
+  background-size: cover;
+  background-position: top; }
