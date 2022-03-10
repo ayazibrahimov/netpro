@@ -18,7 +18,7 @@
 
 
 // layout
-@import "./layout/header";
+// @import "./layout/header";
 @import "./layout/navigation";
 @import "./layout/inabout";
 @import "./layout/partners";
@@ -31,6 +31,8 @@
 
 //pages
 @import "pages/home";
+@import "pages/header";
+@import "pages/footer";
 // @import "pages/sections";
 
 

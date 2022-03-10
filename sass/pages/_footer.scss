@@ -1,0 +1,220 @@
+footer{
+    padding: 50px 0;
+    background-image: url('../../image/footer-bg.png');
+    background-size: cover;
+    background-position: top;
+
+}
+
+
+.footer__box{
+    
+
+
+    &_primary{
+        // height: 15rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+
+        &-logo{
+          max-width: 170px;
+        //   padding-bottom: 5rem;
+          img{
+             width: 100%;
+             height: 100%;
+          }
+        }
+
+        &-social{
+            // margin-top: 4rem;
+
+            &-1:hover{
+                border-color: $color-red;
+                transition: all .3s;
+                a{
+                    color: $color-red;
+                    transition: all .6s;
+                }
+            }
+            &-2:hover{
+                border-color: $color-red;
+                transition: all .3s;
+                a{
+                    color: $color-red;
+                    transition: all .6s;
+                }
+            }
+            &-3:hover{
+                border-color: $color-red;
+                transition: all .3s;
+                a{
+                    color: $color-red;
+                    transition: all .6s;
+                }
+            }
+            &-4:hover{
+                border-color: $color-red;
+                transition: all .3s;
+                a{
+                    color: $color-red;
+                    transition: all .6s;
+                }
+            }
+            &-1{
+                border-radius: 4px;
+               
+                i{
+                   font-size: 1.5rem; 
+                   padding: .4rem .5rem;
+                }
+            }
+            &-2{
+                border-radius: 4px;
+                i{
+                   font-size: 1.5rem; 
+                   padding:.4rem .5rem;
+                }
+            }
+            &-3{
+                border-radius: 4px;
+                i{
+                   font-size: 1.5rem; 
+                   padding:.4rem .5rem;
+                }
+            }
+            &-4{
+                border-radius: 4px;
+                i{
+                   font-size: 1.5rem; 
+                   padding:.4rem .5rem;
+                }
+            }
+        }
+    }
+
+
+
+    &_secondary{
+        position: relative;
+
+        &::after{
+            position: absolute;
+            content: "";
+            width: 1px;
+            height: 255px;
+            background-color: $color-white-line;
+            right: 20%;
+            top: 0;
+        }
+
+        &-title{
+ 
+            margin-bottom: 2rem;
+
+            h3{
+                font-size: 2.5rem;
+                color: $color-white;
+            }
+        }
+        &-list{
+            padding-left: 0rem;
+            li{
+                &:not(:last-child){
+                    margin-bottom: 1rem;
+                }
+                a{
+                    text-decoration: none;
+                    color: $color-white-fade;
+                    font-size: 1.5rem;
+                    i{
+                        padding-right: 1rem;
+                        font-size: 1rem;
+                        color: $color-white-fade;
+                    }
+                }
+            }
+        }
+    }
+
+
+ 
+    &_tertiary{
+
+        &-heading{
+            margin-bottom: 2rem;
+            h3{
+                color: $color-white;
+                font-size: 2.5rem;
+            }
+        }
+
+        &-tel{
+            margin-bottom: 2rem;
+
+            h4{
+                font-size: 2rem;
+                color: $color-white;
+
+                i{
+                    font-size: 1.5rem;
+                    padding-right: 1rem;
+                }
+            }
+        }
+
+        &-num{
+            margin-bottom: 1.3rem;
+            color: $color-white-fade;
+            font-size: 1.5rem;
+        }
+
+        &-email{
+            margin-bottom: 2rem;
+            h4{
+                font-size: 2rem;
+                color: $color-white;
+
+                i{
+                    font-size: 1.5rem;
+                    padding-right: 1rem;
+                }
+            }
+        }
+        &-eadress{
+            margin: 2rem 0;
+            color: $color-white-fade;
+            font-size: 1.5rem;
+        }
+    }
+
+
+
+    &_quaternary{
+        &-email{
+             margin-top: 4.5rem;
+            h4{
+                font-size: 2rem;
+                color: $color-white;
+                // margin: 4rem 0;
+
+                i{
+                    font-size: 1.5rem;
+                    padding-right: 1rem;
+                }
+            }
+        }
+        &-num{
+            margin-bottom: 1.3rem;
+            color: $color-white-fade;
+            font-size: 1.5rem;
+            margin-top: 3rem;
+        }
+    }
+
+}
+
+
+
+
