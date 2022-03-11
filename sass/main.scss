@@ -15,6 +15,9 @@
 
 //components
 @import "./components/button"; 
+@import "./components/bgdesktop"; 
+@import "./components/tablet"; 
+@import "./components/mobile"; 
 
 
 // layout
@@ -27,6 +30,7 @@
 @import "./layout/brend";
 @import "./layout/galery";
 @import "./layout/contact";
+@import "./layout/burger";
 
 
 //pages
