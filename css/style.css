@@ -486,14 +486,17 @@ nav {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.7);
   z-index: 99;
   width: 100%;
-  height: 100vh; }
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px); }
+
+.hide {
+  display: none; }
 
 .hidden {
-  overflow-y: hidden;
-  background-color: rgba(0, 0, 0, 0.7); }
+  overflow-y: hidden; }
 
 #about {
   padding: 50px 0;
