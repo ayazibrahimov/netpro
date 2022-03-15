@@ -53,7 +53,8 @@ ul {
         font-size: 2.8rem; }
 
 .slider__home-item-num {
-  margin-top: 8rem;
+  position: absolute;
+  bottom: 5%;
   display: inline-block; }
   .slider__home-item-num h2 {
     display: inline-block;
@@ -68,7 +69,7 @@ ul {
 
 .owl-nav {
   position: absolute;
-  bottom: 15%;
+  bottom: 5%;
   right: 10%; }
   .owl-nav .owl-next i, .owl-nav .owl-prev i {
     color: #435072;
@@ -80,7 +81,7 @@ ul {
 .slider__home .owl-dots {
   position: absolute;
   bottom: 7%;
-  left: 35%; }
+  left: 40%; }
 
 .slider__home-item-button {
   margin-top: 5rem; }
@@ -120,6 +121,14 @@ ul {
   .gamburger {
     display: block; } }
 
+@media screen and (max-width: 1200px) {
+  html {
+    font-size: 60%; }
+  .brend__slider-item {
+    padding: 1.5rem; }
+  iframe {
+    width: 100%; } }
+
 .navigation {
   background-color: #fff;
   padding: 1.5rem; }
@@ -145,11 +154,14 @@ ul {
         padding: 1rem 1.5rem; }
 
 .about__logo img {
-  width: 11%; }
+  width: 15%; }
 
 .about__text p {
-  font-size: 2.1rem;
+  font-size: 2rem;
   line-height: 36px; }
+
+.about__header h2 {
+  color: #fff; }
 
 .partner__text h2 {
   color: #435072;
@@ -157,7 +169,8 @@ ul {
   letter-spacing: 2px; }
 
 .partner__logos-row {
-  height: 100%; }
+  height: 100%;
+  gap: 3rem; }
 
 .partner__logos-pic {
   height: 100%;
@@ -282,7 +295,6 @@ ul {
 .brend__slider {
   margin-top: 2rem; }
   .brend__slider-item {
-    width: 28rem;
     background: #fff;
     padding: 20px;
     height: 8rem;
@@ -381,11 +393,11 @@ ul {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  gap: 1.5rem; }
+  gap: 8rem; }
   .contact__form_box-1 {
-    width: 50%; }
+    width: 60% !important; }
   .contact__form_box-2 {
-    width: 50%; }
+    width: 60% !important; }
 
 nav {
   display: none;

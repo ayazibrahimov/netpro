@@ -57,6 +57,13 @@ $(function () {
         autoplay:true,
         autoplayTimeout:7000,
         smartSpeed:600,
+        dots:false,
+        responsive:{
+            400:{
+                dots:true,
+            },
+            
+        }
     })
 })
 
@@ -90,6 +97,17 @@ $(function (){
         autoplay:true,
         autoplayTimeout:3000,
         autoplayHoverPause:true,
+        responsive:{
+            1200:{
+               
+                items:3,
+            },
+            992:{
+               
+                items:2,
+            },
+            
+        }
        
        
     })
@@ -111,8 +129,18 @@ $(function(){
         autoplayTimeout:2500,
         autoplayHoverPause:true,
         video:true,
-        // mouseDrag:false,
-        // touchDrag:false,
+        responsive:{
+            1200:{
+                nav:true,
+                items:5,
+            },
+            992:{
+                nav:true,
+                items:4,
+            },
+            
+        }
+        
     })
 })
 

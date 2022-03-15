@@ -11,6 +11,9 @@
 
   
 $('.slider-nav').slick({
+
+ 
+
     centerMode: true,
     centerMode:true,
     focusOnSelect:true,
@@ -19,12 +22,16 @@ $('.slider-nav').slick({
     asNavFor: '.slider-for',
     autoplay:true,
     autoplaySpeed:2500,
+    // prevArrow:'.arrow_prev',
+    // nextArrow:'.arrow_next',
+    arrows:true,
+   
     responsive: [
         {
-            breakpoint: 1200,
+            breakpoint: 1400,
             settings: {
-              arrows: false,
-              centerMode: true,
+              // arrows: true,
+              // centerMode: true,
               centerPadding:'0px',
               slidesToShow: 3
             }
@@ -32,7 +39,7 @@ $('.slider-nav').slick({
         {
             breakpoint: 1200,
             settings: {
-              arrows: false,
+              arrows: true,
               centerMode: true,
               centerPadding:'0px',
               slidesToShow: 3

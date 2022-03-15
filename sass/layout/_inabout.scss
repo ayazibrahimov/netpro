@@ -1,13 +1,25 @@
  .about__logo{
     img{
        
-       width: 11%;
+       width: 15%;
     }
 }
 
 .about__text{
     p{
-        font-size:2.1rem;
+        font-size:2rem;
         line-height:  36px;
     }
 }
+
+
+.about__header{
+    h2{
+        color: $color-white;
+    }
+}
+
+
+
+
+

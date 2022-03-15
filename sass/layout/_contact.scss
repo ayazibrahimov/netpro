@@ -89,13 +89,15 @@
 .contact__form_box{
     display: flex;
     justify-content: space-around;
+    // flex-wrap: wrap;
     align-items: center ;
-    gap: 1.5rem;
+    gap: 8rem;
 
     &-1{
-        width: 50%;
+        width: 60% !important;
     }
     &-2{
-        width: 50%;
+        width: 60% !important;
     }
+   
 }
