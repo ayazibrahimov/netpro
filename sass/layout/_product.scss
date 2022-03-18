@@ -13,8 +13,9 @@
  
     margin-top: 5rem;
    
-    &-item{
-      width: 28rem !important;
+    &-item{  //product-item
+      margin: 0 5rem;
+      width: 45rem ;
       height: 27rem;
       opacity: .4;
       img{

@@ -106,6 +106,20 @@ $(function (){
                
                 items:2,
             },
+           769:{
+               
+                items:2,
+            }, 
+            576:{
+               
+                items:2,
+                dots:false,
+            },
+            0:{
+               
+                items:1,
+                dots:false,
+            },
             
         }
        
@@ -126,17 +140,27 @@ $(function(){
         margin:30,
         dots:false,
         autoplay:true,
-        autoplayTimeout:2500,
-        autoplayHoverPause:true,
+        // autoplayTimeout:2500,
+        // autoplayHoverPause:true,
         video:true,
         responsive:{
-            1200:{
+            // 1200:{
+            //     nav:true,
+            //     items:5,
+            // },
+            992:{
                 nav:true,
                 items:5,
             },
-            992:{
+            768:{
                 nav:true,
-                items:4,
+                items:2,
+                dots:true,
+            },
+           0:{
+                nav:true,
+                items:1,
+                dots:true,
             },
             
         }

@@ -1,6 +1,44 @@
-@media screen and(max-width:992px){
-    // .contact__form_box{
-    //     display: flex;
-    //     flex-wrap: column;
-    // }
+@media screen and(max-width:576px){
+  .about__header{
+      h2{
+          font-size: 1.8rem;
+          line-height: 3rem;
+      }
+  }
+
+  .about__text{
+      p{
+        font-size: 1.5rem;
+        line-height: 23px !important;
+      }
+    }
+
+    .partner__logos-pic{
+        height: 43%;
+       }
+
+    
+
+
+    .service__cards{
+        .row>*{
+            width: 88%;
+        }
+ 
+        &_item{
+            padding: 2rem 3rem;
+        }
+
+    }
+
+
+     .gallery__slider-item{
+         width: calc(100% - 5%);
+         height: 27rem;
+         margin-bottom: 1rem;
+     }
+
+
+
+
 }

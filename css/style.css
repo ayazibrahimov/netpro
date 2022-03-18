@@ -115,20 +115,6 @@ ul {
   .major-button-2:hover i {
     transform: translateX(10px); }
 
-@media screen and (max-width: 991px) {
-  header {
-    display: none; }
-  .gamburger {
-    display: block; } }
-
-@media screen and (max-width: 1200px) {
-  html {
-    font-size: 60%; }
-  .brend__slider-item {
-    padding: 1.5rem; }
-  iframe {
-    width: 100%; } }
-
 .navigation {
   background-color: #fff;
   padding: 1.5rem; }
@@ -183,7 +169,8 @@ ul {
 .product_slider {
   margin-top: 5rem; }
   .product_slider-item {
-    width: 28rem !important;
+    margin: 0 5rem;
+    width: 45rem;
     height: 27rem;
     opacity: .4; }
     .product_slider-item img {
@@ -509,6 +496,148 @@ nav {
 
 .hidden {
   overflow-y: hidden; }
+
+@media screen and (max-width: 991px) {
+  html {
+    font-size: 58%; }
+  header {
+    display: none; }
+  .gamburger {
+    display: block; }
+  .partner__logos {
+    margin-top: 5rem !important; }
+  .slider-for h2 {
+    font-size: 4rem; }
+  .slider-for p {
+    margin-top: 2rem;
+    padding: 0 12rem;
+    font-size: 1.5rem; }
+  .gallery__slider-item {
+    width: 35rem;
+    height: 28rem;
+    padding: 0 1rem; }
+  .contact__form {
+    padding: 0 !important; }
+    .contact__form_box {
+      gap: 4rem !important; }
+  .footer__box_primary {
+    margin-top: 6rem !important;
+    order: 1;
+    justify-content: space-between; }
+    .footer__box_primary img {
+      width: 89% !important; }
+  .footer__box_tertiary::after {
+    content: "";
+    width: 100%;
+    height: 3px;
+    background-color: #6c757d;
+    position: absolute;
+    top: 0;
+    left: 0; }
+  .footer__box_quaternary iframe {
+    width: 80%; } }
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 56%; }
+  .about__header h2 {
+    font-size: 3rem; }
+  .about__text p {
+    font-size: 2rem;
+    line-height: 30px !important; }
+  .partner__text h2 {
+    font-size: 3rem !important; }
+  .service__cards_item {
+    padding: 1rem 3rem; }
+  .gallery__slider-item {
+    width: 52rem;
+    height: 32rem; }
+  .gallery__slider .owl-nav {
+    display: none; }
+  .contact__header h2 {
+    font-weight: 700; }
+  .contact__text p {
+    font-size: 2.5rem;
+    line-height: 4rem; }
+  .contact__form_box {
+    flex-direction: column; }
+    .contact__form_box-1 {
+      width: 100% !important; }
+    .contact__form_box-2 {
+      width: 100% !important; }
+      .contact__form_box-2 textarea {
+        height: 20rem; }
+  .footer__box_secondary {
+    margin-bottom: 2rem; }
+  .footer__box_secondary {
+    margin-bottom: 2rem; }
+    .footer__box_secondary::after {
+      display: none; }
+  .footer__box_quaternary {
+    position: relative; }
+    .footer__box_quaternary iframe {
+      width: 100%; }
+    .footer__box_quaternary::after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: .1rem;
+      opacity: .5;
+      background-color: #ced4da;
+      left: 0%;
+      top: 8px; }
+  .footer__box_primary {
+    position: relative; }
+    .footer__box_primary-logo {
+      margin-bottom: 2rem; }
+    .footer__box_primary::after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: .1rem;
+      opacity: .5;
+      background-color: #ced4da;
+      left: 0%;
+      top: -23px; }
+  .footer__box_tertiary {
+    position: relative; }
+    .footer__box_tertiary-heading {
+      margin-top: 1rem; }
+    .footer__box_tertiary::after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: .1rem;
+      opacity: .5;
+      background-color: #ced4da;
+      left: 0%;
+      top: -13px; } }
+
+@media screen and (max-width: 576px) {
+  .about__header h2 {
+    font-size: 1.8rem;
+    line-height: 3rem; }
+  .about__text p {
+    font-size: 1.5rem;
+    line-height: 23px !important; }
+  .partner__logos-pic {
+    height: 43%; }
+  .service__cards .row > * {
+    width: 88%; }
+  .service__cards_item {
+    padding: 2rem 3rem; }
+  .gallery__slider-item {
+    width: calc(100% - 5%);
+    height: 27rem;
+    margin-bottom: 1rem; } }
+
+@media screen and (max-width: 1200px) {
+  html {
+    font-size: 60%; }
+  .brend__slider-item {
+    padding: 1.5rem; }
+  iframe {
+    width: 100%; } }
 
 #about {
   padding: 50px 0;

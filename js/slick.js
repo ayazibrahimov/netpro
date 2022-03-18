@@ -20,8 +20,8 @@ $('.slider-nav').slick({
     slidesToShow: 3,
     slidesToScroll: 1,
     asNavFor: '.slider-for',
-    autoplay:true,
-    autoplaySpeed:2500,
+    // autoplay:true,
+    // autoplaySpeed:2500,
     // prevArrow:'.arrow_prev',
     // nextArrow:'.arrow_next',
     arrows:true,
@@ -45,8 +45,9 @@ $('.slider-nav').slick({
               slidesToShow: 3
             }
           },
+          
       {
-        breakpoint: 768,
+        breakpoint: 992,
         settings: {
         //   arrows: false,
           centerMode: true,
@@ -55,7 +56,7 @@ $('.slider-nav').slick({
         }
       },
       {
-        breakpoint: 480,
+        breakpoint: 769,
         settings: {
           arrows: false,
           centerMode: true,
